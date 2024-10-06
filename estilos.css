@@ -1,0 +1,98 @@
+body{
+    width: 1300px;
+    margin: auto;
+    background: url(IMAGENES/OIG2.jpeg);
+    background-size: cover;  
+}
+.btn{
+    display: inline-block;
+    background-color: beige;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 25px;
+    padding: 25px;
+}
+.btn1{
+    display: inline-block;
+    background-color: beige;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 40px;
+    padding: 40px;
+}
+    
+.logos{
+    background-color: white;
+    color: white;
+    text-align: center;
+}
+h2{
+    center: items;
+    width: 1300px;
+    color: cornsilk;
+    text-align: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+h1{
+    background-color: white;
+    width: 1300px;
+    color: black;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  
+}
+.nav li{
+    display:inline-block;
+    padding: 5px;
+}
+.menusuperior{
+    background-color: black;
+    font-size: xx-large;
+    text-align: center;
+    
+}
+.menuinferior{
+    background-color: black;
+    font-size:xx-large;
+    text-align: center;
+}
+.png{
+    background-color:black;
+    text-align:left;
+}
+.ppp{
+    width: 1000px;
+    margin: 0;
+    padding: 0;
+}
+.parra{
+    text-align: center;
+    margin: 0;
+    padding: 0;  
+}
+
+.contenedor{
+  display:flex;
+  flex-direction: column;
+  min-width: 100%;
+}
+.contenedor > div {
+  flex:1;
+  display:flex;
+}
+.fila0 { background:rgba(0,0,0,0.3); }
+.fila1 { background:rgba(255,0,0,0.3); }
+.palabras{
+    color:white;
+    text-align: center;
+}
